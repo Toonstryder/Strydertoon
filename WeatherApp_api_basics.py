@@ -14,7 +14,7 @@ Original file is located at
 import requests
 import json
 
-api_key = 'c9b76634b92b907f079fff62339122ae'
+api_key = 'ADD_YOUR_PERSONAL_KEY_HERE'
 city = input("Enter the city name: ")
 url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(city, api_key)
 response = requests.get(url)
